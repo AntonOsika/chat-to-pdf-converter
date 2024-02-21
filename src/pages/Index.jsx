@@ -38,10 +38,9 @@ const Index = () => {
               <IconButton aria-label="Zoom in" icon={<FaSearchPlus />} />
               <IconButton aria-label="View PDF" icon={<FaEye />} />
             </Flex>
-            <Box w="full" h="500px" bgGradient={`linear(${bgGradient}, ${bgGradient})`} d="flex" alignItems="center" justifyContent="center">
-              <FaRegFilePdf size="5rem" />
-              <Heading as="h2" size="lg" ml={4}>
-                SMART WATCH USER GUIDE
+            <Box w="full" h="500px" bgGradient={`linear(${bgGradient}, ${bgGradient})`} d="flex" alignItems="center" justifyContent="center" textAlign="center">
+              <Heading as="h3" size="md" color={borderColor}>
+                Select or upload a PDF file to view it here.
               </Heading>
             </Box>
             <Flex w="full" justify="center">
