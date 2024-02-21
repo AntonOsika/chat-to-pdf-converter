@@ -38,7 +38,7 @@ const Index = () => {
               <IconButton aria-label="Zoom in" icon={<FaSearchPlus />} />
               <IconButton aria-label="View PDF" icon={<FaEye />} />
             </Flex>
-            <Box w="full" h="500px" bg="white" d="flex" alignItems="center" justifyContent="center">
+            <Box w="full" h="500px" bgGradient={`linear(${bgGradient}, ${bgGradient})`} d="flex" alignItems="center" justifyContent="center">
               <FaRegFilePdf size="5rem" />
               <Heading as="h2" size="lg" ml={4}>
                 SMART WATCH USER GUIDE
